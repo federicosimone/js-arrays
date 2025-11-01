@@ -32,6 +32,7 @@ console.log(firstTeacher) ;
 
 teachers.splice(6, 0, "Vanessa")
 
+
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
 
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
