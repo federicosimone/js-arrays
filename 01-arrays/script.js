@@ -30,10 +30,16 @@ console.log(firstTeacher) ;
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
 
-teachers.splice(6, 0, "Vanessa")
+//Primo metodo ultilizzato 
+/*teachers.splice(6, 0, "Vanessa") ;*/ 
+
+// Metodo alternativo per utilizzo strumenti
+teachers.push('Vanessa')
 
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
+
+teachers.splice(0, 0, "Sarah") ;
 
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
