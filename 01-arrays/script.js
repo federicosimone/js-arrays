@@ -34,7 +34,7 @@ console.log(firstTeacher) ;
 /*teachers.splice(6, 0, "Vanessa") ;*/ 
 
 // Metodo alternativo per utilizzo strumenti
-teachers.push('Vanessa')
+teachers.push('Vanessa') ;
 
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
@@ -48,4 +48,12 @@ console.log(lewisIndex) ;
 
 // 8. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = null;
+let risultato = null
+if (teachers.lenght != 0) {
+  risultato = "L'array teachers non è vuoto" ;
+} else {
+  risultato = "L'array teachers è vuoto" ;
+}
+
+const isTeachersEmpty = risultato;
+console.log(isTeachersEmpty) ;
