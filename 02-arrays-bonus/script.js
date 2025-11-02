@@ -41,5 +41,18 @@ const isFabioPresent = teachers.includes('Fabio');
 console.log(isFabioPresent) ;
 
 // 5. Unisci tutti gli insegnanti nell'array teachers in una stringa  separata da virgole e salvala nella variabile teachersString
-const teachersString = teachers.join();
-console.log(teachersString);
+
+const teachersString = teachers.join(", "); 
+//console.log(teachersString);
+
+// const teachersString = console.log(`Gli insegnanti sono: ${teachers}`);  //2° METODO 
+
+// Altro metodo per poter stampare con gli spazi tra le virgole:
+
+document.getElementById("insegnanti").innerHTML = `Gli insegnanti sono: ${teachersString} senza dimenticarci di ${rimozione}` ;  //3° METODO  
+
+let ordinati = reversedTeachers.reverse();
+
+console.log(ordinati)
+
+document.getElementById("ordinati").innerHTML = `Volendoli leggere secondo ordine iniziale...${ordinati}` ;
