@@ -31,6 +31,10 @@ for (i=0 ; i< teachers.length; i++) {
 
 // 3. Rimuovi 'Ed' dall'array teachers
 
+let rimozione = teachers.splice(1, 4) ;
+console.log(rimozione)
+
+
 // 4. Verifica se 'Fabio' è presente nell'array teachers
 // e salva il risultato nella variabile isFabioPresent
 const isFabioPresent = null;
