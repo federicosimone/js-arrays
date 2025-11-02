@@ -31,7 +31,7 @@ for (i=0 ; i< teachers.length; i++) {
 
 // 3. Rimuovi 'Ed' dall'array teachers
 
-let rimozione = teachers.splice(1, 4) ;
+let rimozione = teachers.splice(5, 1) ;
 console.log(rimozione)
 
 
