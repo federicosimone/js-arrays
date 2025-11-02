@@ -18,6 +18,16 @@ console.log(reversedTeachers) ;
 // con un nome di lunghezza maggiore o uguale a 5 caratteri
 const longNames = null;
 
+for (i=0 ; i< teachers.length; i++) {
+
+    if (teachers[i].length >= 5) {
+      console.log('ciao')
+    }  else {
+      console.log('bye')
+    }
+  
+}
+
 // 3. Rimuovi 'Ed' dall'array teachers
 
 // 4. Verifica se 'Fabio' è presente nell'array teachers
