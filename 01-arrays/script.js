@@ -41,6 +41,8 @@ teachers.push('Vanessa') ;
 
 teachers.splice(0, 0, "Sarah") ;
 
+//teachers.unshift('Sarah') PREFERIBILE
+
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
 const lewisIndex = teachers.indexOf('Lewis');
