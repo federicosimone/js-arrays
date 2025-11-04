@@ -30,8 +30,8 @@ for (i=0 ; i< teachers.length; i++) {
  console.log(longNames)
 
 // 3. Rimuovi 'Ed' dall'array teachers
-
-let rimozione = teachers.splice(5, 1) ;
+const indiceDiEd = teachers.indexOf('Ed')
+let rimozione = teachers.splice(indiceDiEd, 1) ;
 console.log(rimozione)
 
 
